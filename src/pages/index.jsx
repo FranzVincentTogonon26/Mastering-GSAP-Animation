@@ -5,6 +5,7 @@ import GsapTo from "./GsapTo";
 import Home from "./Home";
 import GsapTimeline from "./GsapTimeline";
 import GsapStagger from "./GsapStagger";
+import GsapScrollTrigger from "./GsapScrollTrigger";
 
 export {
     Home,
@@ -12,5 +13,6 @@ export {
     GsapFrom,
     GsapFromTo,
     GsapTimeline,
-    GsapStagger
+    GsapStagger,
+    GsapScrollTrigger,
 };
