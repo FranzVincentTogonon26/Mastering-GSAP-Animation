@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer components {
+    h1 {
+        @apply text-4xl font-bold text-white mt-10;
+    }
+
+    main {
+        @apply mx-auto max-w-3xl xl:max-w-5xl min-h-screen p-10 ring-1 ring-zinc-300/20
+    }
+
+    code{
+        @apply bg-zinc-800 text-orange-400 px-1 rounded-md text-sm;
+    }
+
+    a {
+        @apply text-blue-400 underline font-semibold;
+    }
+    
+    button {
+        @apply bg-slate-500 text-zinc-50 px-4 py-2 rounded-md hover:bg-slate-600;
+    }
+}
+
+@layer utilities {
+    .container {
+        @apply bg-zinc-900 p-10 mx-auto max-w-3xl xl:max-w-5xl min-h-screen;
+    }
+}
